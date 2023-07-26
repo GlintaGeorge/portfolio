@@ -149,13 +149,23 @@ h6 {
   height: 100vh;
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    
   }
 }
+@media (max-width: 992px) {
+  #hero {
+    height: 32vh;
+    
+    
+  }
+}
+
 
 #hero:before {
   content: "";
